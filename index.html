@@ -29,12 +29,12 @@
         <div class="header-right flex gap-2">
 
             <div class="element-1 flex justify-center items-center gap-1 bg-[#01f4361f] border border-green-800 rounded-[50px] p-1">
-                <h1 class="text-xs font-bold" >100</h1>
+                <h1 id="counting-box" class="text-xs font-bold" >0</h1>
                 <img class="h-[15px] w-[15px]" src="./assets/heart.png" alt="">
             </div>
 
             <div class="element-2 flex justify-center items-center gap-1 bg-[#01f4361f] border border-green-800 rounded-[50px] p-1">
-                <h1 class="text-xs font-bold" >100</h1>
+                <h1 id="coin-box" class="text-xs font-bold" >100</h1>
                 <img class="h-[15px] w-[15px]" src="./assets/coin.png" alt="">
             </div>
 
@@ -67,7 +67,7 @@
 
             <div class="top-section flex justify-between items-center ">
                 <img class="w-[35px] h-[35px] rounded-md" src="./assets/emergency.png" alt="">
-                <i class="fa-regular fa-heart"></i>
+                <i id="card-one" class="fa-regular fa-heart"></i>
             </div>
 
             <div class="middle-section">
@@ -79,17 +79,21 @@
 
             <div class="bottom-section p-5 flex gap-5 justify-around">
 
-                <div class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+               <button class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+
                     <i class="fa-regular fa-copy bg-white text-gray-500"></i>
                     <h1 class="text-sm" >Copy</h1>
-                </div>
 
-                <div class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+               </button>
+
+                <button id="card-one-calling" class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+
                     <i class="fa-solid fa-phone text-white"></i>
                     <h1 class="text-white text-sm">Call</h1>
-                </div>
 
-        </div>
+                </button>
+
+            </div>
 
         </div>
 
@@ -98,8 +102,8 @@
         <div class="card-2  bg-[#FFE3E2] w-[250px] h-[250px] mx-auto mt-3 p-4 rounded-lg drop-shadow-lg">
 
             <div class="top-section flex justify-between items-center ">
-                <img class="w-[35px] h-[35px] rounded-md" src="./assets/emergency.png" alt="">
-                <i class="fa-regular fa-heart"></i>
+                <img class="w-[35px] h-[35px] rounded-md" src="./assets/police.png" alt="">
+                <i id="card-two" class="fa-regular fa-heart"></i>
             </div>
 
             <div class="middle-section">
@@ -111,17 +115,21 @@
 
             <div class="bottom-section p-5 flex gap-5 justify-around">
 
-                <div class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+               <button class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+
                     <i class="fa-regular fa-copy bg-white text-gray-500"></i>
                     <h1 class="text-sm" >Copy</h1>
-                </div>
 
-                <div class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+               </button>
+
+                <button id="card-two-calling" class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+
                     <i class="fa-solid fa-phone text-white"></i>
                     <h1 class="text-white text-sm">Call</h1>
-                </div>
 
-        </div>
+                </button>
+
+            </div>
 
         </div>
 
@@ -130,8 +138,8 @@
         <div class="card-3  bg-[#FFE3E2] w-[250px] h-[250px] mx-auto mt-3 p-4 rounded-lg drop-shadow-lg">
 
             <div class="top-section flex justify-between items-center ">
-                <img class="w-[35px] h-[35px] rounded-md" src="./assets/emergency.png" alt="">
-                <i class="fa-regular fa-heart"></i>
+                <img class="w-[35px] h-[35px] rounded-md" src="./assets/fire-service.png" alt="">
+                <i id="card-three" class="fa-regular fa-heart"></i>
             </div>
 
             <div class="middle-section">
@@ -143,17 +151,21 @@
 
             <div class="bottom-section p-5 flex gap-5 justify-around">
 
-                <div class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+               <button class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+
                     <i class="fa-regular fa-copy bg-white text-gray-500"></i>
                     <h1 class="text-sm" >Copy</h1>
-                </div>
 
-                <div class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+               </button>
+
+                <button id="card-three-calling" class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+
                     <i class="fa-solid fa-phone text-white"></i>
                     <h1 class="text-white text-sm">Call</h1>
-                </div>
 
-        </div>
+                </button>
+
+            </div>
 
         </div>
 
@@ -163,7 +175,7 @@
 
             <div class="top-section flex justify-between items-center ">
                 <img class="w-[35px] h-[35px] rounded-md" src="./assets/ambulance.png" alt="">
-                <i class="fa-regular fa-heart"></i>
+                <i id="card-four" class="fa-regular fa-heart"></i>
             </div>
 
             <div class="middle-section">
@@ -175,17 +187,21 @@
 
             <div class="bottom-section p-5 flex gap-5 justify-around">
 
-                <div class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+               <button class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+
                     <i class="fa-regular fa-copy bg-white text-gray-500"></i>
                     <h1 class="text-sm" >Copy</h1>
-                </div>
 
-                <div class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+               </button>
+
+                <button id="card-four-calling" class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+
                     <i class="fa-solid fa-phone text-white"></i>
                     <h1 class="text-white text-sm">Call</h1>
-                </div>
 
-        </div>
+                </button>
+
+            </div>
 
         </div>
 
@@ -195,7 +211,7 @@
 
             <div class="top-section flex justify-between items-center ">
                 <img class="w-[35px] h-[35px] rounded-md" src="./assets/emergency.png" alt="">
-                <i class="fa-regular fa-heart"></i>
+                <i id="card-five" class="fa-regular fa-heart"></i>
             </div>
 
             <div class="middle-section">
@@ -207,17 +223,21 @@
 
             <div class="bottom-section p-5 flex gap-5 justify-around">
 
-                <div class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+               <button class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+
                     <i class="fa-regular fa-copy bg-white text-gray-500"></i>
                     <h1 class="text-sm" >Copy</h1>
-                </div>
 
-                <div class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+               </button>
+
+                <button id="card-five-calling" class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+
                     <i class="fa-solid fa-phone text-white"></i>
                     <h1 class="text-white text-sm">Call</h1>
-                </div>
 
-        </div>
+                </button>
+
+            </div>
 
         </div>
 
@@ -227,7 +247,7 @@
 
             <div class="top-section flex justify-between items-center ">
                 <img class="w-[35px] h-[35px] rounded-md" src="./assets/emergency.png" alt="">
-                <i class="fa-regular fa-heart"></i>
+                <i id="card-six" class="fa-regular fa-heart"></i>
             </div>
 
             <div class="middle-section">
@@ -239,17 +259,21 @@
 
             <div class="bottom-section p-5 flex gap-5 justify-around">
 
-                <div class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+               <button class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+
                     <i class="fa-regular fa-copy bg-white text-gray-500"></i>
                     <h1 class="text-sm" >Copy</h1>
-                </div>
 
-                <div class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+               </button>
+
+                <button id="card-six-calling" class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+
                     <i class="fa-solid fa-phone text-white"></i>
                     <h1 class="text-white text-sm">Call</h1>
-                </div>
 
-        </div>
+                </button>
+
+            </div>
 
         </div>
 
@@ -259,7 +283,7 @@
 
             <div class="top-section flex justify-between items-center ">
                 <img class="w-[35px] h-[35px] rounded-md" src="./assets/emergency.png" alt="">
-                <i class="fa-regular fa-heart"></i>
+                <i id="card-seven" class="fa-regular fa-heart"></i>
             </div>
 
             <div class="middle-section">
@@ -271,17 +295,21 @@
 
             <div class="bottom-section p-5 flex gap-5 justify-around">
 
-                <div class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+               <button class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+
                     <i class="fa-regular fa-copy bg-white text-gray-500"></i>
                     <h1 class="text-sm" >Copy</h1>
-                </div>
 
-                <div class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+               </button>
+
+                <button id="card-seven-calling" class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+
                     <i class="fa-solid fa-phone text-white"></i>
                     <h1 class="text-white text-sm">Call</h1>
-                </div>
 
-        </div>
+                </button>
+
+            </div>
 
         </div>
 
@@ -290,8 +318,8 @@
         <div class="card-8  bg-[#FFE3E2] w-[250px] h-[250px] mx-auto mt-3 p-4 rounded-lg drop-shadow-lg">
 
             <div class="top-section flex justify-between items-center ">
-                <img class="w-[35px] h-[35px] rounded-md" src="./assets/emergency.png" alt="">
-                <i class="fa-regular fa-heart"></i>
+                <img class="w-[35px] h-[35px] rounded-md" src="./assets/brac.png" alt="">
+                <i id="card-eight" class="fa-regular fa-heart"></i>
             </div>
 
             <div class="middle-section">
@@ -303,17 +331,21 @@
 
             <div class="bottom-section p-5 flex gap-5 justify-around">
 
-                <div class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+               <button class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+
                     <i class="fa-regular fa-copy bg-white text-gray-500"></i>
                     <h1 class="text-sm" >Copy</h1>
-                </div>
 
-                <div class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+               </button>
+
+                <button id="card-eight-calling" class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+
                     <i class="fa-solid fa-phone text-white"></i>
                     <h1 class="text-white text-sm">Call</h1>
-                </div>
 
-        </div>
+                </button>
+
+            </div>
 
         </div>
 
@@ -322,8 +354,8 @@
         <div class="card-9  bg-[#FFE3E2] w-[250px] h-[250px] mx-auto mt-3 p-4 rounded-lg drop-shadow-lg">
 
             <div class="top-section flex justify-between items-center ">
-                <img class="w-[35px] h-[35px] rounded-md" src="./assets/emergency.png" alt="">
-                <i class="fa-regular fa-heart"></i>
+                <img class="w-[35px] h-[35px] rounded-md" src="./assets/Bangladesh-Railway.png" alt="">
+                <i id="card-nine" class="fa-regular fa-heart"></i>
             </div>
 
             <div class="middle-section">
@@ -335,28 +367,33 @@
 
             <div class="bottom-section p-5 flex gap-5 justify-around">
 
-                <div class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+               <button class="copy flex gap-2 items-center bg-white p-2 w-[100px] rounded-md">
+
                     <i class="fa-regular fa-copy bg-white text-gray-500"></i>
                     <h1 class="text-sm" >Copy</h1>
-                </div>
 
-                <div class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+               </button>
+
+                <button id="card-nine-calling" class="call flex gap-2 items-center bg-green-600 p-2 w-[100px] rounded-md">
+
                     <i class="fa-solid fa-phone text-white"></i>
                     <h1 class="text-white text-sm">Call</h1>
-                </div>
+
+                </button>
+
+            </div>
 
         </div>
 
-        </div>
-
-        </div>
-    
+    </div>
 
         <div class="call-history-section mt-3 mx-5 mx-auto bg-[#FFE3E2]">
 
-            <div class="top-history-section flex justify-between p-3 mb-[5px] rounded-xl shadow-xl">
-            <h1 class="font-bold bg-white  px-2 py-2 rounded-xl"><i class="fa-solid fa-clock text-gray-600"></i> Call History</h1>
-            <h1 class="bg-green-600 text-white text-sm px-5 py-2 rounded-xl" >Clear</h1>
+            <div class="top-history-section flex gap-2 justify-between p-3 mb-[5px] rounded-xl shadow-xl">
+
+            <button class="font-bold bg-white  px-2 py-2 rounded-xl"><i class="fa-solid fa-clock text-gray-600"></i> Call History</button>
+            <button class="bg-green-600 text-white text-sm px-5 py-2 rounded-xl" >Clear</button>
+
             </div>
 
         <!-- Call-list section -->
@@ -376,7 +413,6 @@
             </div>
         </div>
 
-    </div>
-
+<script src="javascript.js"></script>
 </body>
 </html>
