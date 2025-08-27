@@ -154,3 +154,30 @@ document.getElementById('clear').addEventListener('click', function(){
 
 })
 
+
+// Copying the number to later use
+
+function copytext(button, number){
+
+    let numberfield = document.getElementById(number).innerText;
+
+    document.getElementById(button).addEventListener('click', function(){
+
+        navigator.clipboard.writeText(numberfield);
+        alert("Number Cpied " + numberfield);
+
+    })
+
+}
+
+// Calling the copy funtion to copy the number 
+
+copytext('copy-1', 'card-one-number');
+copytext('copy-2', 'card-two-number');
+copytext('copy-3', 'card-three-number');
+copytext('copy-4', 'card-four-number');
+copytext('copy-5', 'card-five-number');
+copytext('copy-6', 'card-six-number');
+copytext('copy-7', 'card-seven-number');
+copytext('copy-8', 'card-eight-number');
+copytext('copy-9', 'card-nine-number');
